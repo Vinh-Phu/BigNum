@@ -59,7 +59,7 @@ public:
 	UintN& operator/=(const UintN&);
 	friend UintN operator%(const UintN&, const UintN&);
 	UintN& operator%=(const UintN&);
-	
+	/* Prime Number */
 	static bool isPrime(UintN&);
 	static UintN nextPrime(UintN& num);
 };
