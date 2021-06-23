@@ -16,7 +16,7 @@ bool CheckPrime2N(UintN& num1,UintN& num2)
 	}
 	else if (UintN::isPrime(num1) == false && UintN::isPrime(num2) == true)
 	{
-		cout << num2 << " is not prime number \n";
+		cout << num1 << " is not prime number \n";
 		cout << num2 << " is a prime number\n";
 		return true;
 	}
@@ -50,7 +50,7 @@ void findthenextprime(UintN& num1, UintN& num2)
 		else if (UintN::isPrime(num1) == false && UintN::isPrime(num2) == true)
 		{
 			
-			cout << "the next prime number bigger than " << num1 << " is " << UintN::nextPrime(num2) << endl;
+			cout << "the next prime number bigger than " << num2 << " is " << UintN::nextPrime(num2) << endl;
 		}
 	}
 }
